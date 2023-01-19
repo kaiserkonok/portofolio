@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+  </head>
+  <body>
+    {% for skill in skills %}
+      <div>
+          <img src="{{ skill.thumbnail.url }}" alt="{{ skill.title }}">
+          <h2>{{ skill.title }}</h2>
+          <p>{{ skill.description }}</p>
+          <p>Expert level: {{ skill.level }}</p>
+      </div>
+    {% endfor %}
+  </body>
+</html>

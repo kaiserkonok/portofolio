@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Skill container styles */
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Skill thumbnail styles */
+.skill img {
+    width: 100%;
+}
+
+/* Skill title styles */
+.skill h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Skill description styles */
+.skill p:first-of-type {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Skill expert level styles */
+.skill p:last-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
